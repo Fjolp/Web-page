@@ -5,4 +5,59 @@ body {
 .header {
     border: 1px solid red;
     display: flex;
+    justify-content: space-around;
 }
+
+.header-links {
+    display:flex;
+    gap: 30px;
+}
+
+.main-title {
+    border: 1px solid red;
+    display:flex;
+    margin:50px 100px 50px 100px;
+    gap: 15px;
+}
+
+.main-title-text {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap:10px;
+}
+
+.main-title img {
+    min-width: 400px;
+    min-height: 200px;
+
+    max-width: 400px;
+    max-height: 200px;
+}
+
+button {
+    max-width: 80px;
+    max-height: 40px;
+}
+
+.content {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+}
+
+.info {
+    border:1px solid blue;
+    max-width: 150px;
+}
+
+.content img{
+    max-width: 50px;
+    max-height: 50px;
+    border: 1px solid yellow;
+}
+
