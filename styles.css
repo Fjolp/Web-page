@@ -3,7 +3,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    padding:0;
+    margin:0;
 }
 
 .main {
@@ -14,29 +16,41 @@ body {
 }
 
 .header {
-    border: 1px solid red;
+    
     display: flex;
     justify-content: space-around;
+    color:#F9FAF8;
 }
 
 .header-links {
     display:flex;
     gap: 30px;
+    color:#E5E7EB;
 }
 
 .main-title {
-    border: 1px solid red;
+    
     display:flex;
     margin:50px 100px 50px 100px;
     gap: 15px;
 }
 
 .main-title-text {
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     flex: 1;
     gap:10px;
+    color:#E5E7EB;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 38px;
+    color:#F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
 }
 
 .main-title img {
@@ -50,6 +64,19 @@ body {
 button {
     max-width: 80px;
     max-height: 40px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    border: #3882F6;
+}
+
+.click-bait button {
+    border: 1px solid #F9FAF8;
+}
+
+.random-info {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 28px;
 }
 
 .middle {
@@ -65,7 +92,7 @@ button {
 }
 
 .content {
-    border: 1px solid red;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,14 +101,14 @@ button {
 }
 
 .info {
-    border:1px solid blue;
     max-width: 150px;
 }
 
 .content img{
-    max-width: 50px;
-    max-height: 50px;
-    border: 1px solid yellow;
+    max-width: 110px;
+    max-height: 110px;
+    border:3px solid #3882F6;
+    border-radius: 15px;
 }
 
 .quote {
@@ -91,12 +118,11 @@ button {
     font-size:26px;
     padding:40px 200px;
     background-color: #E5E7EB;
-    
-    border: 1px solid blue;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 p {
-    border:1px solid red;
     text-align: end;
 }
 
@@ -104,14 +130,19 @@ p {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin:30px 200px;
+    max-width: 560px;
+    margin:30px 150px;
+    padding: 30px;
     background-color: #3882F6;
-    border:1px solid red;
+    border-radius: 10px;
+    gap: 40px;
 } 
 
 .footer{
     margin:auto 0;
     text-align: center;
-    border:1px solid red;
+    background-color: #1F2937;
+    padding: 15px;
+    color: #E5E7EB;
 }
 
